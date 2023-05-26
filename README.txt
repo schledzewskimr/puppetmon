@@ -1,1 +1,21 @@
-devWorm can use node to get a snapshow of a site by url to scrape it, copy it onto your own server, and run your changes over it.
+# Puppetmon
+
+Puppetmon is a Node.js tool that allows you to capture a webpage and serve it locally for testing and development purposes.
+
+## Installation
+
+To install Puppetmon globally, run the following command:
+
+npm install -g puppetmon
+
+## Usage
+
+To use Puppetmon, run the following command:
+
+puppetmon [website-url]
+
+Replace `[website-url]` with the URL of the webpage you want to capture and serve.
+
+Puppetmon will capture the webpage and serve it locally on `http://localhost:3000`. Any changes made to your files will automatically be reflected when the server restarts.
+
+

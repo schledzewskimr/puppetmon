@@ -1,18 +1,17 @@
 {
-  "name": "devworm",
+  "name": "puppetmon",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Capture and serve webpages locally for testing and development purposes.",
+  "main": "puppetmon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "schledzewskimr",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "puppeteer": "^20.4.0",
-    "puppeteer-recorder": "^1.0.7"
+    "puppeteer": "^20.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
