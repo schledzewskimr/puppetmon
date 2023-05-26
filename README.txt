@@ -1,0 +1,1 @@
+devWorm can use node to get a snapshow of a site by url to scrape it, copy it onto your own server, and run your changes over it.
