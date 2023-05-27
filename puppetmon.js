@@ -57,4 +57,6 @@ async function captureAndServeWebsite(url) {
   serveWebpage(capturedHtml);
 }
 
-module.exports = captureAndServeWebsite;
+module.exports = {
+  captureAndServeWebsite
+};

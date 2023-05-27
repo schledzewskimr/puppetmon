@@ -1,6 +1,6 @@
 {
   "name": "puppetmon",
-  "version": "1.0.0",
+  "version": "0.9.2",
   "description": "Capture and serve webpages locally for testing and development purposes.",
   "main": "puppetmon.js",
   "scripts": {
